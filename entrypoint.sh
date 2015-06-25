@@ -20,4 +20,5 @@ then
   exit 1
 fi
 
+export EC2_URL=https://ec2.$REGION.amazonaws.com/
 exec "${@}"
